@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tynny Apps</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/fixedsys-excelsior.css" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">	
+		<h1>__Tinny Apps__</h1>		
+		<div id="capa"><div class="foto"><img src="capa.jpg"></div></div>
+		<h2 id="log"></h2>
+		<p class="traco">****************</p>
+		<p>
+			Aplicativos feitos em <b>Pascal</b> para apreciar o que há de melhor na saudosa tecnologia vintage. Quem teve o privilégio de ver o mundo da programação engatinhando desde as primeiras linguagens até os dias atuais,  assim como os mais jovens, é bem-vindo. Também indicado para quem está começando a programar e tem curiosidade de mexer em softwares de fácil interpretação.
+		</p>
+		<p>
+			Não sabe o que é Pascal? <a href="https://pt.wikipedia.org/wiki/Pascal_(linguagem_de_programa%C3%A7%C3%A3o)"> Clique aqui!</a> 
+		</p>
+
+		<p>Não tem um compilador Pascal? <a href="http://pascalzimbr.blogspot.com/p/blog-page.html">Baixe aqui!</a></p>
+
+		<div class="foto2"><img src="pascal.jpg" class="pascal"></div>
+
+		<br />
+
+		<ul>
+			<li>
+				<h3>Caixa Eletrônico</h3><a href="apps/caixa_eletronico.exe" download>Executável </a>// <a href="apps/caixa_eletronico.pas" download>Editável</a>
+				<p>Caixa de banco com as funções básicas, bom para aprender estruturas condicionais.</p>	
+				
+				
+			</li>
+			<li>
+				<h3>Estatísticas</h3><a href="apps/estatisticas.exe" download>Executável </a>// <a href="apps/estatisticas.pas" download>Editável</a>
+				<p>Inserindo apenas dois dados, você pode descobrir números incríveis a seu respeito! Programa trabalha com cálculo de variáveis e delays.</p>
+			</li>
+			<li>
+				<h3>Feliz Ano Novo</h3><a href="apps/happynewyear.exe" download>Executável </a>// <a href="apps/happynewyear.pas" download>Editável</a></li>
+				<p>:)</p>
+			<li>
+				<h3>Horário de Lazer</h3><a href="apps/horario_de_lazer.exe" download>Executável </a>// <a href="apps/horario_de_lazer.pas" download>Editável</a></li>
+				<p>Cansado de brigar pelo PC em casa? Combine um horário com sua família e ligue o contador de tempo! :D</p>
+			<li>
+				<h3>Jogo da Velha</h3><a href="apps/jogodavelha.exe" download>Executável </a>// <a href="apps/jogodavelha.pas" download>Editável</a>
+				<p>
+					Jogo da Velha clássico.
+				</p>
+			</li>
+		</ul>
+
+		<p>Obs.: Para baixar os arquivos editáveis, o ideal é clicar no link com o botão direito e selecionar a opção "salvar link como...".</p>
+
+		<br />
+
+		<p class="traco">-------------------</p>
+		<p>Site elaborado e desenvolvido por Márlon Ramos. E-mail: marlon.prog.poa @gmail.com</p>
+	</div>
+
+<script type="text/javascript" language="javascript">
+		var div = document.getElementById('log');
+		var texto = 'print "Pequenos Aplicativos Para se Divertir e Aprender";';
+
+		function escrever(str, el) {
+		  var char = str.split('').reverse();
+		  var typer = setInterval(function() {
+		    if (!char.length) return clearInterval(typer);
+		    var next = char.pop();
+		    el.innerHTML += next;
+		  }, 100);
+		}
+
+
+		escrever(texto, div);
+	</script>
+</body>
+</html>

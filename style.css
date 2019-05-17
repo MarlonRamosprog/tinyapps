@@ -1,0 +1,68 @@
+#capa {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+
+.foto {
+	max-width: 90%;
+}
+
+.foto img {
+	width: 100%;
+}
+
+h1 {
+	/*font-family: 'FixedsysExcelsior';*/
+	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+	font-size: 40px;
+	color: #b5e853;
+}
+
+h2 {
+	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+	font-size: 30px;
+	color: #b5e853;
+}
+
+p, li {
+	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+	color: #dfe6e9;
+	margin-right: 30px;
+}
+
+a {
+	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+	color: #b5e853;
+	text-decoration: none;
+}
+
+body {
+	/*background-color: #363636;*/
+	background-color: #151515;
+	width: 100%;
+	margin: 0;
+}
+
+.traco {
+	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+	color: #b5e853;
+	margin-right: 30px;
+	width: 80%;
+	max-width: 80%;
+}
+
+.container {
+	max-width: 95%;
+	margin: 20px;
+}
+
+.foto2 {
+	width: 400px;
+	max-width: 90%;
+}
+
+.pascal {
+	width: 100%;
+}
